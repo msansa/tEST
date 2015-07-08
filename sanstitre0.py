@@ -12,3 +12,6 @@ X = np.linspace(0,10,1000)
 Y = np.sin(2*np.pi*0.5*X)
 
 plt.plot(X,Y)
+plt.title('Test 1')
+plt.xlabel('X')
+plt.ylabel('Y')
